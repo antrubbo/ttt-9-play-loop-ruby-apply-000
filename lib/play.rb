@@ -36,8 +36,8 @@ def turn(board)
 end
 
 def play(board)
-  user_move = 1
-  until user_move > 9 
+  user_move = 0
+  until user_move > 8
     turn(board)
     user_move += 1 
   end
